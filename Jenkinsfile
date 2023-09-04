@@ -3,12 +3,12 @@ pipeline {
      stages {
         stage('Build') {
             steps {
-                echo 'Hello Peter!'
+                echo 'Hello Anushka!'
             }
         }
         stage('Test') {	
             steps {
-                echo 'Peter listen to me, you idiot!'
+                echo 'Dipesh listen to me, you idiot!'
             }
         }
         stage('Deploy1') {
